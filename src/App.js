@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 import TodoClock from "./Components/TodoClock";
+import MyPhoto from "./Assets/cover-photo.png";
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -94,7 +95,7 @@ function formatTaskDate(date) {
 
         <img
           className=" w-[430px] "
-          src="/assets/cover-photo.png"
+          src={MyPhoto}
           alt="flowers"
         />
 
